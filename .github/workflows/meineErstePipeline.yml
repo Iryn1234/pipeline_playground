@@ -19,7 +19,7 @@ jobs:
    runs-on: ubuntu-latest
    steps:
     - name: funktionstest
-      run: echo Hello Funktionstest
+      run: echo Hello Funktionstest2
       
   # This workflow contains a single job called "build"
   build:
