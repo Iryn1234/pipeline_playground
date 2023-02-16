@@ -35,6 +35,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo ${{ vars.HALLO }}!
+        
+      - name: Run a second one-line script
         run: echo ${{ secrets.HALLO }} !
 
       # Runs a set of commands using the runners shell
